@@ -82,7 +82,7 @@ if game.PlaceId == 8003084678 then
 	wait(5)
 	obbyhub:Destroy()
 	getgenv().Loaded = true
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranxware-V2/obby-hub/main/Games/1-lua.lua?token=GHSAT0AAAAAABYTGDPAVER5Y23QFJ37QRUIY3Z3AJA",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranxware-V2/obby-hub/main/Games/1-lua.lua?token=GHSAT0AAAAAABYTGDPA6QVG344C4W2BUP76Y3Z3FPA"))()
 else
 	placelabel.Text = "Loading universal"
 	wait(2)
