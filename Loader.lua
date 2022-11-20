@@ -8,7 +8,7 @@ local placeid = Instance.new("Frame")
 local placelabel = Instance.new("TextLabel")
 
 obbyhub.Name = "obbyhub"
-obbyhub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+obbyhub.Parent = game.CoreGui
 obbyhub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 obbyhub.ResetOnSpawn = false
 
@@ -82,7 +82,7 @@ if game.PlaceId == 8003084678 then
 	wait(5)
 	obbyhub:Destroy()
 	getgenv().Loaded = true
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranxware-V2/obby-hub/main/Games/1-lua.lua?token=GHSAT0AAAAAABYTGDPA6QVG344C4W2BUP76Y3Z3FPA"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranxware-V2/obby-hub/main/Games/1-lua.lua?token=GHSAT0AAAAAABYTGDPA52GN6THOU57POS4UY3Z3IXA"))()
 else
 	placelabel.Text = "Loading universal"
 	wait(2)
